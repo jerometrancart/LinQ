@@ -18,3 +18,12 @@ List<Personne> personnes = new()
     new() { Nom = "Cerkezoglu", Prenom = "Nurbey", TailleCm = 175, Sexe = Sexe.Homme, DateNaissance = new(1997, 11, 03)},
     new() { Nom = "Trancart", Prenom = "Jérôme", TailleCm = 175, Sexe = Sexe.Homme, DateNaissance = new(1989, 7, 29)},
 };
+
+
+///CREE UNE NOUVELLE COLLECTION IENUMERABLE EN MEMOIRE SUR LA BASE DE LA PRECEDENTE
+List<string> nomsDeFamille = personnes.Select(p => p.Nom).ToList();
+
+foreach (var item in nomsDeFamille)
+{
+    System.Console.WriteLine(item);
+}
