@@ -21,9 +21,18 @@ List<Personne> personnes = new()
 
 
 ///CREE UNE NOUVELLE COLLECTION IENUMERABLE EN MEMOIRE SUR LA BASE DE LA PRECEDENTE
-List<string> nomsDeFamille = personnes.Select(p => p.Nom).ToList();
+// List<string> nomsDeFamille = personnes.Select(p => p.Nom).ToList();
 
-foreach (var item in nomsDeFamille)
+// foreach (var item in nomsDeFamille)
+// {
+//     System.Console.WriteLine(item);
+// }
+
+var avecDate = personnes.Where(p => p.DateNaissance.HasValue);
+
+foreach (var item in avecDate)
 {
-    System.Console.WriteLine(item);
+    System.Console.WriteLine($" {item.Nom} {item.Prenom} né(e) le {item.DateNaissance!.Value:dd/MM/yyyy}");
 }
+
+
