@@ -1,0 +1,15 @@
+C:\wamp64\www\.Net\Section_7\LinQ\bin\Debug\net7.0\LinQ.exe
+C:\wamp64\www\.Net\Section_7\LinQ\bin\Debug\net7.0\LinQ.deps.json
+C:\wamp64\www\.Net\Section_7\LinQ\bin\Debug\net7.0\LinQ.runtimeconfig.json
+C:\wamp64\www\.Net\Section_7\LinQ\bin\Debug\net7.0\LinQ.dll
+C:\wamp64\www\.Net\Section_7\LinQ\bin\Debug\net7.0\LinQ.pdb
+C:\wamp64\www\.Net\Section_7\LinQ\obj\Debug\net7.0\LinQ.csproj.AssemblyReference.cache
+C:\wamp64\www\.Net\Section_7\LinQ\obj\Debug\net7.0\LinQ.GeneratedMSBuildEditorConfig.editorconfig
+C:\wamp64\www\.Net\Section_7\LinQ\obj\Debug\net7.0\LinQ.AssemblyInfoInputs.cache
+C:\wamp64\www\.Net\Section_7\LinQ\obj\Debug\net7.0\LinQ.AssemblyInfo.cs
+C:\wamp64\www\.Net\Section_7\LinQ\obj\Debug\net7.0\LinQ.csproj.CoreCompileInputs.cache
+C:\wamp64\www\.Net\Section_7\LinQ\obj\Debug\net7.0\LinQ.dll
+C:\wamp64\www\.Net\Section_7\LinQ\obj\Debug\net7.0\refint\LinQ.dll
+C:\wamp64\www\.Net\Section_7\LinQ\obj\Debug\net7.0\LinQ.pdb
+C:\wamp64\www\.Net\Section_7\LinQ\obj\Debug\net7.0\LinQ.genruntimeconfig.cache
+C:\wamp64\www\.Net\Section_7\LinQ\obj\Debug\net7.0\ref\LinQ.dll
