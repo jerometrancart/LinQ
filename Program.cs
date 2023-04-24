@@ -21,18 +21,31 @@ List<Personne> personnes = new()
 
 
 ///CREE UNE NOUVELLE COLLECTION IENUMERABLE EN MEMOIRE SUR LA BASE DE LA PRECEDENTE
-// List<string> nomsDeFamille = personnes.Select(p => p.Nom).ToList();
+List<string> nomsDeFamille = personnes.Select(p => p.Nom).ToList();
 
-// foreach (var item in nomsDeFamille)
-// {
-//     System.Console.WriteLine(item);
-// }
+foreach (var item in nomsDeFamille)
+{
+    System.Console.WriteLine(item);
+}
 
 var avecDate = personnes.Where(p => p.DateNaissance.HasValue);
 
-foreach (var item in avecDate)
+ foreach (var item in avecDate)
 {
     System.Console.WriteLine($" {item.Nom} {item.Prenom} né(e) le {item.DateNaissance!.Value:dd/MM/yyyy}");
 }
 
+var existeUneFemme = personnes.Any(p => p.Sexe == Sexe.Femme);
 
+System.Console.WriteLine("Il existe au moins une femme dans la liste? " + existeUneFemme);
+
+var longName = personnes.All(p => p.Nom.Length >= 3);
+
+System.Console.WriteLine("Toutes les personnes de la liste ont un nom composé de + de 3 caractères? " + longName);
+
+var nomsParOrdreApha = personnes.OrderBy(p => p.Nom).ThenBy(p => p.Prenom);
+
+foreach (var item in nomsParOrdreApha)
+{
+    System.Console.WriteLine($"{item.Nom} {item.Prenom}");
+}
